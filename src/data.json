@@ -1,0 +1,73 @@
+{
+  "user": "john doe",
+  "storeOptions": ["Store1", "Store2", "Store3", "Store4", "Store5", "Store6"],
+  "dateFromOptions": [
+    "2017-01-02",
+    "2017-04-17",
+    "2017-12-22",
+    "2017-03-12",
+    "2017-09-04"
+  ],
+  "dateToOptions": [
+    "2017-01-10",
+    "2017-04-19",
+    "2017-12-25",
+    "2017-03-18",
+    "2017-09-14"
+  ],
+  "totalRevenue": "4,101.74",
+  "deposits": "3,000",
+  "peopleVisited": "10,253",
+  "APSD": "3,021.74",
+  "UPSD": "1,080",
+  "TR": {
+    "labels": [
+      "September",
+      "October",
+      "November",
+      "December",
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "data": [275, 525, 400, 220, 180, 200, 400, 350, 590, 230, 350, 375],
+    "average": 250
+  },
+  "TPSI": [
+    { "Category": "Item name 1", "APSD": 856.6, "UPSD": 99.64, "SKU": 100 },
+    { "Category": "Item name 2", "APSD": 282.45, "UPSD": 51.18, "SKU": 20 },
+    { "Category": "Item name 3", "APSD": 395.73, "UPSD": 136.13, "SKU": 0 },
+    { "Category": "Item name 4", "APSD": 37.56, "UPSD": 7.04, "SKU": 92 },
+    { "Category": "Item name 5", "APSD": 590.5, "UPSD": 294.65, "SKU": 63 },
+    { "Category": "Item name 6", "APSD": 108.45, "UPSD": 62.98, "SKU": 44 }
+  ],
+  "salesByCategory": {
+    "labels": [
+      "Category 1",
+      "Category 1",
+      "Category 3",
+      "Category 4",
+      "Category 5"
+    ],
+    "data": [15, 25, 10, 20, 30]
+  },
+  "todaysWeather": {
+    "temperature": 8,
+    "data": [
+      { "category": "Cigarettes", "inStock": true },
+      { "category": "Beer", "inStock": false },
+      { "category": "Wine", "inStock": true },
+      { "category": "Hot dispensed beverage", "inStock": false },
+      { "category": "Frozen dispensed beverage", "inStock": true }
+    ]
+  },
+  "storesRevenue": {
+    "labels": ["store6", "store5", "store4", "store3", "store2", "store1"],
+    "data": [5120, 8520, 3400, 5600, 4370, 3630]
+  }
+}
